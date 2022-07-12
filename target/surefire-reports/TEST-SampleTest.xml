@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="SampleTest" time="3.293" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="SampleTest" time="6.43" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
@@ -35,7 +35,7 @@
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/jagadeeshtummala"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="file.encoding" value="US-ASCII"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="jagadeeshtummala"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
@@ -47,18 +47,18 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="17.0.1"/>
-    <property name="native.encoding" value="US-ASCII"/>
+    <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="US-ASCII"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.8.6/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="US-ASCII"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="SampleTest" name="test" time="3.293"/>
+  <testcase classname="SampleTest" name="test" time="6.43"/>
 </testsuite>
