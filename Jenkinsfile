@@ -10,5 +10,10 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        stage ('sample') {
+                    steps {
+                        sh 'echo "sample"'
+                    }
+                }
     }
 }
