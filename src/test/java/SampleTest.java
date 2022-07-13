@@ -6,17 +6,9 @@ public class SampleTest {
 
     @Test
     public void test() {
-
-        // System Property for Chrome Driver
         System.setProperty("webdriver.chrome.driver", "/Users/jagadeeshtummala/Downloads/chromedriver");
-
-        // Instantiate a ChromeDriver class.
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("https://www.facebook.com/login/");
-
-
         driver.quit();
-
     }
-
 }  
