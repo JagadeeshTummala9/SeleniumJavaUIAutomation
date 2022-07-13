@@ -10,6 +10,5 @@ public class SampleTest {
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("https://www.facebook.com/login/");
         driver.quit();
-        //Added to test polling
     }
 }  
