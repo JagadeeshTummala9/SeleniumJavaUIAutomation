@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+        stage ('Run Tests') {
 
             steps {
-                withMaven(maven : 'maven_3_5_0') {
-                    sh 'mvn clean compile'
+                withMaven(maven : 'maven_3.8.6') {
+                    sh 'mvn test'
                 }
             }
         }
